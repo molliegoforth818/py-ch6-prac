@@ -1,17 +1,20 @@
 zoo = ("monkey", "cat", "dog", "otter", "pig",
        "elephant", "kitty", "penguin", "dolphin", "lion")
 
-# print(zoo.index("lion"))
-# animal_to_find = "lion"
-# if animal_to_find in zoo:
-    # print(f"{animal_to_find} is found in zoo")
+print(zoo.index("lion"))
+animal_to_find = "lion"
+if animal_to_find in zoo:
+    print(f"{animal_to_find} is found in zoo")
 
-# (one, two, three, four, five, six, seven, eight, nine, ten) = zoo
-# print(one, two, three, four, five, six, seven, eight, nine, ten)  
+(one, two, three, four, five, six, seven, eight, nine, ten) = zoo
+print(one, two, three, four, five, six, seven, eight, nine, ten)  
 
-# zoo = list(zoo)
+zoo = list(zoo)
 
-# print("list:", zoo)
+print("list:", zoo)
+
+zoo.extend(["Dolla Bill", "Princesa Porchini", "Lando"])
+print(zoo)
 
 zoo = tuple(zoo)
 
